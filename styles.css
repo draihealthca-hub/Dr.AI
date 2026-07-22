@@ -1200,3 +1200,51 @@ a {
     animation-iteration-count: 1 !important;
   }
 }
+
+
+/* Code-built Goal Details phone preview */
+.phone-stage{position:relative;min-height:760px;display:grid;place-items:center}
+.phone-device{position:relative;width:390px;height:760px;padding:10px;border-radius:68px;background:linear-gradient(90deg,#121212 0%,#535353 2%,#0b0b0b 5%,#171717 95%,#555 98%,#111 100%);box-shadow:0 38px 90px rgba(20,27,38,.20),inset 0 0 0 2px #686868,inset 0 0 0 5px #111}
+.phone-device:before{content:"";position:absolute;inset:5px;border-radius:64px;border:2px solid rgba(255,255,255,.11);pointer-events:none}
+.phone-side{position:absolute;width:4px;border-radius:6px;background:#2c2c2c}
+.phone-side-left{left:-3px}.phone-side-left.one{top:145px;height:34px}.phone-side-left.two{top:197px;height:54px}.phone-side-left.three{top:270px;height:54px}.phone-side-right{right:-3px;top:218px;height:80px}
+.phone-screen-real{position:relative;width:100%;height:100%;overflow:hidden;border-radius:58px;background:#fff}
+.dynamic-island{position:absolute;top:14px;left:50%;width:126px;height:34px;transform:translateX(-50%);border-radius:999px;background:#000;z-index:10}
+.dynamic-island:after{content:"";position:absolute;right:16px;top:50%;width:7px;height:7px;transform:translateY(-50%);border-radius:50%;background:#08154f;box-shadow:0 0 0 2px #121a3a inset}
+.app-header-real{height:106px;display:grid;grid-template-columns:52px 1fr 52px;align-items:end;padding:0 26px 22px;border-bottom:1px solid #ececec;background:#fff}
+.app-header-real h2{margin:0;text-align:center;font-size:1.58rem;line-height:1;font-weight:800;letter-spacing:-.03em;color:#211d20}
+.back-button{justify-self:start;color:#58a8fb;font-size:2.5rem;line-height:.7;font-family:Arial,sans-serif;font-weight:300}
+.gear-button{justify-self:end;color:#58a8fb;font-size:1.72rem;line-height:1}
+.app-content-real{position:relative;height:calc(100% - 106px);padding:28px 24px 118px;overflow:hidden;background:#fff}
+.goal-card-real{padding:22px 20px 18px;border-radius:24px;background:#fff;box-shadow:0 8px 24px rgba(25,31,42,.08),0 2px 5px rgba(25,31,42,.03)}
+.goal-card-title-row{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.goal-card-title-row h3{margin:0;font-size:1.35rem;line-height:1.1;font-weight:800;letter-spacing:-.035em;white-space:nowrap}
+.status-pill-real{flex:0 0 auto;padding:7px 13px;border-radius:999px;background:#eff2f6;color:#a7a7a7;font-size:.87rem;font-weight:700}
+.completion-label-real{margin-top:12px;text-align:right;color:#54a5f9;font-size:.9rem;line-height:1;font-weight:800}
+.goal-progress-track-real{height:8px;margin-top:8px;overflow:hidden;border-radius:999px;background:#e9f2fb}
+.goal-progress-track-real span{display:block;width:65%;height:100%;border-radius:inherit;background:#54a5f9}
+.target-date-real{display:flex;align-items:center;gap:7px;margin-top:15px;color:#7e7578;font-size:.82rem}
+.calendar-icon-real{font-size:1rem;line-height:1}
+.app-section-title-real{margin:24px 0 14px;font-size:1.08rem;line-height:1;font-weight:800}
+.checkin-card-real{padding:26px 22px 20px;border-radius:26px;background:#fff;box-shadow:0 8px 22px rgba(25,31,42,.08),0 2px 5px rgba(25,31,42,.03)}
+.checkin-card-real h4{margin:0;font-size:1.08rem;font-weight:800}.checkin-card-real p{margin:12px 0 0;color:#777;font-size:.82rem}
+.add-checkin-real{width:100%;min-height:58px;display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-top:18px;border:1px solid #ececec;border-radius:10px;background:#fff;color:#54a5f9;box-shadow:0 6px 16px rgba(25,31,42,.10),0 1px 3px rgba(25,31,42,.05);font-size:.98rem;font-weight:700}
+.tiny-plus-real{width:16px;height:16px;display:grid;place-items:center;border-radius:3px;background:#54a5f9;color:#fff;font-size:.8rem;line-height:1}
+.previous-checkins-real{width:100%;display:inline-flex;align-items:center;justify-content:center;gap:18px;margin-top:22px;color:#54a5f9;font-size:.94rem;font-weight:700}
+.chevron-real{font-size:1.65rem;line-height:1}
+.scan-result-row-real{width:100%;display:flex;align-items:center;justify-content:flex-start;gap:14px;margin-top:28px;color:#231f20;font-size:1.08rem;font-weight:800}
+.down-chevron-real{color:#867d7f;font-size:1.6rem;line-height:1;transform:translateY(-3px)}
+.scan-photo-real{position:relative;width:82%;height:150px;margin:22px auto 0;overflow:hidden;border-radius:25px;background:radial-gradient(circle at 33% 84%,rgba(36,67,17,.85) 0 8%,transparent 9%),linear-gradient(145deg,#c8d978 0%,#779845 35%,#d7c19b 55%,#8aab57 100%)}
+.scan-photo-real .leaf{position:absolute;border-radius:999px;background:linear-gradient(90deg,#4d7c2d,#9fc167)}
+.scan-photo-real .leaf.one{width:190px;height:15px;left:-14px;top:28px;transform:rotate(-24deg)}
+.scan-photo-real .leaf.two{width:220px;height:18px;right:-36px;top:18px;transform:rotate(28deg)}
+.scan-photo-real .leaf.three{width:180px;height:14px;left:40px;bottom:28px;transform:rotate(14deg)}
+.scan-photo-real .leaf.four{width:140px;height:12px;right:-12px;bottom:16px;transform:rotate(-36deg)}
+.original-badge-real{position:absolute;top:10px;right:10px;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.96);color:#67717d;font-size:.68rem;font-weight:800}
+.bottom-nav-wrap-real{position:absolute;left:20px;right:20px;bottom:24px;display:flex;align-items:center;gap:14px;z-index:5}
+.bottom-nav-real{flex:1;min-height:70px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;padding:8px 10px;border-radius:32px;background:rgba(255,255,255,.98);box-shadow:0 8px 22px rgba(25,31,42,.12),0 2px 5px rgba(25,31,42,.05)}
+.nav-item-real{display:grid;justify-items:center;gap:3px;color:#8893a5;font-size:.62rem;line-height:1}
+.nav-icon-real{font-size:1.18rem;line-height:1;font-weight:700}
+.fab-real{width:68px;height:68px;flex:0 0 auto;display:grid;place-items:center;border-radius:50%;background:#54a5f9;color:#fff;box-shadow:0 12px 28px rgba(84,165,249,.35);font-size:2.4rem;font-weight:300;line-height:1}
+@media(max-width:720px){.phone-stage{min-height:690px}.phone-device{width:min(92vw,390px);height:720px}.goal-card-title-row h3{font-size:1.18rem}.app-content-real{padding-inline:20px}}
+
