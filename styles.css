@@ -1307,3 +1307,92 @@ a {
   }
 }
 
+
+
+
+/* Final clean homepage */
+.hero-simple-inner,
+.section-head.centered,
+.simple-disclaimer {
+  text-align: center;
+}
+
+.section-head.centered {
+  margin-inline: auto;
+}
+
+.simple-feature-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.simple-feature-card {
+  min-height: 210px;
+}
+
+.simple-feature-card h3 {
+  margin: 0 0 12px;
+}
+
+.simple-feature-card p {
+  margin: 0;
+}
+
+.simple-steps .step {
+  text-align: left;
+}
+
+.simple-disclaimer {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 48px 36px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.92);
+  box-shadow: var(--shadow-sm);
+}
+
+.simple-disclaimer h2 {
+  margin-bottom: 18px;
+}
+
+.simple-disclaimer p:last-child {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+
+/* Remove any leftover app-interface or mockup elements */
+.phone-stage,
+.phone-device,
+.phone-screen-real,
+.dynamic-island,
+.app-header-real,
+.app-content-real,
+.goal-card-real,
+.checkin-card-real,
+.scan-photo-real,
+.bottom-nav-wrap-real,
+.bottom-nav-real,
+.fab-real,
+.app-screenshot-stage,
+.app-screenshot-frame,
+.feature-icon {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .simple-feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .simple-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .simple-disclaimer {
+    padding: 34px 22px;
+  }
+}
+
