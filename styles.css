@@ -1187,13 +1187,6 @@ a {
   }
 }
 
-.brand-logo {
-  width: 38px;
-  height: 38px;
-  object-fit: contain;
-  border-radius: 12px;
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -1401,5 +1394,12 @@ a {
   .simple-disclaimer {
     padding: 34px 22px;
   }
+}
+
+.brand-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 12px;
 }
 
